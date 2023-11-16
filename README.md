@@ -1,0 +1,3 @@
+#Readme
+
+This repo is a solution for LeetCode problem: ```1046. Last Stone Weight```. The solution uses a priority queue which implements a max heap data structure. The time complexity is O(nlogn). To construct the heap is O(n) and the push and pop functions are both O(logn). To reduce the heap to 1 or 0 elements will take n iterations and during each iteration there will be at least 2 calls to the pop function. This produces the O(nlogn) time complexity. The space complexity O(n) because the priority_queue copies n elements from the stone vector.
